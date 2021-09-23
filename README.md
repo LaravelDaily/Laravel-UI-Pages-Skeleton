@@ -12,13 +12,43 @@ It uses the Starter Kit [Laravel UI](https://github.com/laravel/ui) based on Boo
 
 ### How to use
 
-- Clone the project with `git clone`
-- Copy `.env.example` file to `.env` and edit database credentials there
-- Run `composer install`
-- Run `php artisan key:generate`
-- Run `php artisan migrate --seed` (it has some seeded data for your testing)
-- That's it: launch the main URL
+Clone this project to your local computer.
 
+```ps
+git clone https://github.com/LaravelDaily/Laravel-UI-Pages-Skeleton.git
+```
+
+Navigate to the project folder.
+
+```ps
+cd Laravel-UI-Pages-Skeleton/
+```
+
+Install required packages.
+
+```ps
+composer install
+```
+
+create new .env file and edit database credentials there.
+
+```ps
+cp .env.example .env
+```
+
+Generate new app key.
+
+```ps
+php artisan key:generate
+```
+
+Run migrations. (it has some seeded data for your testing)
+
+```ps
+php artisan migrate --seed
+```
+
+That's it: launch the main URL
 
 ---
 
